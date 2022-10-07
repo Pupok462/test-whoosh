@@ -26,7 +26,7 @@
 - Все температуры возвращаются пользователю в градусах Цельсия
 
 ## Запуск
-  - `git clone https://github.com/Pupok462/test.git`
+  - `git clone https://github.com/Pupok462/test-whoosh.git`
   - `python -m venv venv`
   - `pip install -r requirements.txt`
   - `uvicorn app:app --reload --port 8000` (Порт по желанию)
