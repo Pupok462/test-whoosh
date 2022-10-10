@@ -65,7 +65,7 @@ def get_temperature(session: SessionType):
         temperature = fetch_weather()
         create_weather(session, temperature)
         return temperature
-    if (int(datetime.now().timestamp()) - int(history[-1].date.timestamp())) > 5:
+    if (int(datetime.now().timestamp()) - int(history[-1].date.timestamp())) > 3600:
         temperature = fetch_weather()
         create_weather(session, temperature)
         session.commit()

@@ -32,4 +32,4 @@
   - `uvicorn app:app --reload --port 8000` (Порт по желанию)
 ## Дополнительные сведения
  - Чтобы проверить работает ли стягивание с [OpenWeatherMap](https://openweathermap.org/api/one-call-3) удалите файл `sql_app.db` сейчас там создана тестовая бд для проверки работы всех эндпоинтов
-"# test-whoosh" 
+
